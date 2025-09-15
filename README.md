@@ -52,7 +52,7 @@ MemInsight outperforms traditional memory retrieval methods:
 
 ## 🛠️ Setup
 
-git clone https://github.com/<your-org>/meminsight.git
+git clone https://github.com/amazon-science/MemInsight
 
 cd meminsight
 
