@@ -1,0 +1,13 @@
+You will be given one event summary written for a multi-turn conversation between two persons.
+Your task is to rate the summary on one metric.
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+Evaluation Criteria:
+Consistency (1-5) - the factual alignment between the events in the summary and the conversation. A factually consistent summary contains only statements that are entailed by the source document.
+Annotators were also asked to penalize summaries that contained hallucinated facts.
+Evaluation Steps:
+1. Read the conversation carefully and identify the main events and details it presents.
+2. Read the summary and compare it to the conversation. Check if the summary contains any factual errors that are not supported by the article.
+3. Assign a score for consistency based on the Evaluation Criteria. 1 if they are not consistent at all. Return only numbers no text
+Important: Return one numbers only no any other text.
+Source Text:{}
+Summary:{}

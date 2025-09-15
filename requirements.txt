@@ -1,0 +1,24 @@
+# Core dependencies
+tqdm
+argparse
+pandas
+numpy
+regex
+nltk
+bert-score
+faiss-cpu  # or faiss-gpu if you're using GPU
+openai
+boto3
+botocore
+retry
+transformers
+torch
+huggingface_hub
+
+# For evaluating metrics like ROUGE
+rouge-score  # or custom 'evaluation.rougel_score' assumed to be in-repo
+
+# If faiss gives you trouble:
+# pip install faiss-cpu (for CPU)
+# pip install faiss-gpu (for GPU support)
+

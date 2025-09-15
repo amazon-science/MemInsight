@@ -1,0 +1,14 @@
+You will be given one event summary written for a multi-turn conversation between two persons.
+Your task is to rate the summary on one metric.
+Please make sure you read and understand these instructions carefully. Please keep this document open while reviewing, and refer to it as needed.
+Evaluation Criteria:
+Relevance (1-5) - selection of important events from the source. The summary should include only important information from the source conversation.
+Annotators were instructed to penalize summaries which contained redundancies and excess information.
+Evaluation Steps:
+1. Read the summary and the source conversation carefully.
+2. Compare the summary to the source conversation and identify the main events in the dialogue.
+3. Assess how well the summary covers the main events of the conversation, and how much irrelevant or redundant information it contains.
+4. Respond with a relevance score from 1 to 5. 1 if they are not relevant at all.
+Important: Return one numbers only no any other text.
+Source Text:{}
+Summary:{}
